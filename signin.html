@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      header,
+      footer {
+       padding: 1em;
+       color: yellow;
+      }
+      footer {
+        text-align: center;
+      }   
+      #navbar img {
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+      }
+      nav .navhead{
+        font-family: "Times New Roman", Times, serif;
+        color: rgba(172, 21, 202, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+      }
+      header nav {
+        position:absolute;
+        display: flex;
+        justify-content: space-between;
+        padding-left:0px;
+        padding-right:0px;
+        top:10px;
+       left:10px;
+       right:20px;
+       margin-top: 12px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      ul li {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+      }
+      li a {
+        color: rgb(207, 34, 3);
+        font-weight: 600;
+        font-family:"Times New Roman", Times, serif;
+      font-size: 23PX;
+      }
+      li:hover {
+        background-color: rgb(220, 232, 237);
+        transition: background-color 0.5s;
+      }
+      nav button {
+        height: 3;
+        margin: 3px 3px;
+        background-color: rgb(40, 54, 253);
+        border: blue;
+        border-radius: 5 px;
+        color: rgb(221, 22, 22);
+      }
+      button :hover {
+        background-color: #333;
+        color: rgb(244, 246, 251);
+      }
+
+      h1 {
+        margin: 13px;
+        padding: 0px;
+        color: rgb(120, 236, 31);
+        text-align: justify;
+        font-size: 50px;
+      }
+      h2{
+        color: yellow;
+        font-size: 35px;
+      }
+      body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("food.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+            }
+        .container {
+        position: center;
+        display: inline-block;
+        flex-direction: column;
+        width: 400px;
+        margin: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 5px rgb(234, 17, 168);
+        border-width: 2px;
+        border-style:double;
+         border-radius: 10px;
+         padding:50px;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 25px;
+         color:blue;
+            }
+             input {
+        margin: 7px 7px;
+        padding: 7px 7px;
+        height: 35px;
+        padding: 7px;
+        color:#333;
+        font-size: 20px;
+      }
+      button {
+        width: 175px;
+        height: 8;
+        margin: 8px 55px;
+        padding: 5px 0px;
+        height: 35px;
+        padding: 7px;
+        background-color: rgb(194, 73, 134);
+        border: none;
+        border-radius: 15px;
+        color:black;
+      }
+      button :hover {
+        position: center;
+        background-color: #333;
+        color: rgb(234, 17, 168);
+      }
+          </style>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="navhead">
+          <img src="spicylogo.jpg">
+        <h1>Foodies Choice</h1>
+        </div>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="signin.html">Signin</a></li>
+          <li><a href="signup.html">Signup</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+            <div class="con">
+                <h2>Register form</h2><br>
+                <div class="form.group">
+                  <form>
+                    <form action="" method="get"></form>
+                    <fieldset>
+                    <div class="form.group">  
+        First Name:<br>
+        <input type="text" name="First Name" required><br>
+        Last Name: <br>
+                </div>
+                <div class="form.group">
+       <input type="text" name="Last  Name" required><br>
+                </div>
+                <div class="form.group">
+       Email Id: <br>
+                </div>
+                <div class="form.group">
+       <input type="email"name="Email" required> <br>
+                </div>
+                <div class="form.group">
+        password: <br>
+        <input type="password"name ="pass" required><br>
+                </div>
+              <button type="button">Register</button>
+                    </fieldset>
+              </div>
+            </form>
+  
+  </body>
+</html>
